@@ -99,7 +99,7 @@ export const ContentPage: QuartzEmitterPlugin<Partial<FullPageLayout>> = (userOp
       const fps: FilePath[] = []
       const allFiles = content.map((c) => c[1].data)
 
-      let containsIndex = false
+      let containsIndex = true
       for (const [tree, file] of content) {
         const slug = file.data.slug!
         if (slug === "index") {

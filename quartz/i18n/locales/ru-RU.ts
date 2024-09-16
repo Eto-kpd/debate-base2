@@ -30,13 +30,13 @@ export default {
       darkMode: "Тёмный режим",
     },
     explorer: {
-      title: "Проводник",
+      title: "Содержание",
     },
     footer: {
       createdWith: "Создано с помощью",
     },
     graph: {
-      title: "Вид графа",
+      title: "Связи",
     },
     recentNotes: {
       title: "Недавние заметки",
